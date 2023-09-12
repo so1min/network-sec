@@ -10,7 +10,7 @@ zone "sunrinWP.com" IN {
         type master;
         file "/etc/bind/sunrinWP.com.zone";
 };
-zone "200.200.200-addr.arpa" IN {
+zone "100.100.210-addr.arpa" IN {
         type master;
         file "/etc/bind/sunrinWP.com.zone.rev";
 };
