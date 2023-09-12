@@ -1,0 +1,13 @@
+$TTL    6H
+@   IN  SOA sunrinNS.com root.sunrinNS.com (
+            20230825        ; Serial
+            1D              ; Refresh
+            1H              ; Retry
+            1W              ; Expire
+            6H              ; Negative Cache TTL
+)
+
+@           IN      NS      ns.sunrinNS.com.
+ns          IN      A       8.8.8.88
+88          IN      PTR     ns.sunrinNS.com.
+10          IN      PTR     www.sunrinNS.com.

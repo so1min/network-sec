@@ -1,0 +1,16 @@
+zone "sunrinNS.com" IN {
+        type master;
+        file "/etc/bind/sunrinNS.com.zone";
+};
+zone "100.241.125.in-addr.arpa" IN {
+        type master;
+        file "/etc/bind/sunrinNS.com.zone.rev";
+};
+zone "sunrinWP.com" IN {
+        type master;
+        file "/etc/bind/sunrinWP.com.zone";
+};
+zone "200.200.200-addr.arpa" IN {
+        type master;
+        file "/etc/bind/sunrinWP.com.zone.rev";
+};

@@ -1,0 +1,12 @@
+network:
+  ethernets:
+    enp0s3:
+      dhcp4: no
+      addresses:
+        - 8.8.8.88/24
+      routes:
+        - to: default
+          via: 8.8.8.1
+    enp0s8:
+      dhcp4: true
+  version: 2
