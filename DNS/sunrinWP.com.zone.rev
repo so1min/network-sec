@@ -1,5 +1,5 @@
 $TTL    6H
-@   IN  SOA sunrinNS.com root.sunrinNS.com (
+@   IN  SOA sunrinWP.com root.sunrinWP.com (
             20230825        ; Serial
             1D              ; Refresh
             1H              ; Retry
@@ -7,7 +7,7 @@ $TTL    6H
             6H              ; Negative Cache TTL
 )
 
-@           IN      NS      ns.sunrinNS.com.
+@           IN      NS      ns.sunrinWP.com.
 ns          IN      A       8.8.8.88
-88          IN      PTR     ns.sunrinNS.com.
-10          IN      PTR     www.sunrinNS.com.
+88          IN      PTR     ns.sunrinWP.com.
+10          IN      PTR     www.sunrinWP.com.
