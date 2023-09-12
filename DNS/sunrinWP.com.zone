@@ -1,5 +1,5 @@
 $TTL    6H
-@   IN  SOA sunrinNS.com root.sunrinNS.com (
+@   IN  SOA sunrinWP.com root.sunrinWP.com (
             20230825        ; Serial
             1D              ; Refresh
             1H              ; Retry
