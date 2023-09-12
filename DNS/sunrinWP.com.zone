@@ -7,7 +7,7 @@ $TTL    6H
             6H              ; Negative Cache TTL
 )
 
-@           IN      NS      ns.sunrinNS.com.
+@           IN      NS      ns.sunrinWP.com.
 ns          IN      A       8.8.8.88
-@           IN      A       125.241.100.10
-www         IN      A       125.241.100.10
+@           IN      A       210.100.100.10
+www         IN      A       210.100.100.10
